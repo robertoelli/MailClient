@@ -1,0 +1,15 @@
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/MailClient.deps.json
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/MailClient.pdb
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Common.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Dns.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Groupware.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Imap4.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Mail.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Nntp.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.OpenPGP.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Pop3.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.Smtp.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.WhoIs.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/ActiveUp.Net.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/publish/OutSystems.ExternalLibraries.SDK.dll

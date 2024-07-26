@@ -1,0 +1,12 @@
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/MailClient.deps.json
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net6.0/linux-x64/MailClient.pdb
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.csproj.AssemblyReference.cache
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.AssemblyInfoInputs.cache
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.AssemblyInfo.cs
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.csproj.CoreCompileInputs.cache
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/refint/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/MailClient.pdb
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/linux-x64/ref/MailClient.dll
