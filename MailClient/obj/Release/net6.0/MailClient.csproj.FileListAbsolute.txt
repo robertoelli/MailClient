@@ -10,3 +10,4 @@
 /Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/refint/MailClient.dll
 /Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/MailClient.pdb
 /Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/ref/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/Release/net6.0/MailClient.sourcelink.json

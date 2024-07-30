@@ -2,7 +2,7 @@ using OutSystems.ExternalLibraries.SDK;
 
 namespace MailClient
 {
-     [OSInterface(Description = "Client to read email using IMAP.", IconResourceName = "MailClient.resources.MailClient.png")]
+     [OSInterface(Description = "Client to read email using IMAP or POP3.", IconResourceName = "MailClient.resources.MailClient.png")]
      public interface IMailClient
      {
          [OSAction(Description = "Get emails from the specified server", IconResourceName = "MailClient.resources.MailClient.png", ReturnName = "MessageList")]
