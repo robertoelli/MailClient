@@ -1,0 +1,16 @@
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/MailClient.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/MailClient.deps.json
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/MailClient.pdb
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/BouncyCastle.Cryptography.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/Google.Apis.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/Google.Apis.Auth.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/Google.Apis.Core.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/MailKit.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/MimeKit.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/Newtonsoft.Json.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/OutSystems.ExternalLibraries.SDK.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/System.CodeDom.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/System.Management.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/System.Security.Cryptography.Pkcs.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/runtimes/win/lib/net7.0/System.Management.dll
+/Users/lli/Documents/ODCExtensions/MailClient/MailClient/bin/Release/net8.0/publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
