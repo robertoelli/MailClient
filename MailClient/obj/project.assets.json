@@ -560,19 +560,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/lli/.nuget/packages/": {}
+    "/Users/roberto.elli/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lli/Documents/ODCExtensions/MailClient/MailClient/MailClient.csproj",
+      "projectUniqueName": "/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/MailClient.csproj",
       "projectName": "MailClient",
-      "projectPath": "/Users/lli/Documents/ODCExtensions/MailClient/MailClient/MailClient.csproj",
-      "packagesPath": "/Users/lli/.nuget/packages/",
-      "outputPath": "/Users/lli/Documents/ODCExtensions/MailClient/MailClient/obj/",
+      "projectPath": "/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/MailClient.csproj",
+      "packagesPath": "/Users/roberto.elli/.nuget/packages/",
+      "outputPath": "/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lli/.nuget/NuGet/NuGet.Config"
+        "/Users/roberto.elli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -630,7 +630,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

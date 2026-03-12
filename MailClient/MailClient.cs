@@ -103,35 +103,79 @@ namespace MailClient
 				From = email.From.ToString(),
 				Subject = email.Subject,
 				Date = email.Date.DateTime,
-				BodyHTML = email.TextBody
+				BodyHTML = /*email.TextBody ?? */email.HtmlBody
 			};
 
 			List<Structures.MailAttachment> mailAattachments = new List<Structures.MailAttachment>();
 			foreach (MimeEntity attachment in email.Attachments) {
 				//var fileName = attachment.ContentDisposition?.FileName ?? attachment.ContentType.Name;
-				Structures.MailAttachment mailAattachment = new Structures.MailAttachment();
+				Structures.MailAttachment mailAttachment = new Structures.MailAttachment();
 
 				using (var memory = new MemoryStream ()) {
 					if (attachment is MessagePart) {
 						MessagePart rfc822 = (MessagePart) attachment;
 						var fileName = attachment.ContentDisposition?.FileName ?? attachment.ContentType.Name;
 
-						mailAattachment.ContentName = fileName;
+						mailAttachment.ContentName = fileName;
 						rfc822.Message.WriteTo (memory);
 					} else {
 						MimePart part = (MimePart) attachment;
 
-						mailAattachment.ContentName = part.FileName;
-						mailAattachment.MimeType = part.ContentType.MimeType;
+						mailAttachment.ContentName = part.FileName;
+						mailAttachment.MimeType = part.ContentType.MimeType;
 						part.Content.DecodeTo (memory);
 					}
 
-					mailAattachment.MimeType = attachment.ContentType.MimeType;
-					mailAattachment.ContentBinary = memory.ToArray();
+					mailAttachment.MimeType = attachment.ContentType.MimeType;
+					if (memory.ToArray().Length <= 5000000) {
+						mailAttachment.ContentBinary = memory.ToArray();
+					} else {
+						mailAttachment.ContentName = mailAttachment.ContentName + " (not downloaded - " + memory.ToArray().Length / 1024 + "KB)";
+					}
 				}
 
-				mailAattachments.Add(mailAattachment);
+				mailAattachments.Add(mailAttachment);
 			}
+
+
+            // Search inline PEC attachments  
+
+            using (var memoryInline = new MemoryStream())
+            {
+                foreach (var bodyPart in email.BodyParts)
+                {
+                    var fileName = bodyPart.ContentDisposition?.FileName ?? bodyPart.ContentType.Name;
+                    Structures.MailAttachment mailAattachmentInline = new Structures.MailAttachment();
+
+                    // postacert.eml - message/rfc822
+
+                    var rfc822 = bodyPart as MessagePart;
+
+                    if (rfc822 != null)
+                    {
+                        rfc822.Message.WriteTo(memoryInline);
+                        mailAattachmentInline.ContentName = rfc822.ContentType.Name;
+                        mailAattachmentInline.MimeType = rfc822.ContentType.MimeType;
+                        mailAattachmentInline.ContentBinary = memoryInline.ToArray();
+                        mailAattachments.Add(mailAattachmentInline);
+                    }
+
+                    // daticert.xml
+
+                    if (fileName == "daticert.xml")
+                    {
+                        var part = (MimePart)bodyPart;
+                        if (part != null)
+                        {
+                            part.Content.DecodeTo(memoryInline);
+                            mailAattachmentInline.ContentName = part.ContentType.Name;
+                            mailAattachmentInline.MimeType = part.ContentType.MimeType;
+                            mailAattachmentInline.ContentBinary = memoryInline.ToArray();
+                            mailAattachments.Add(mailAattachmentInline);
+                        }
+                    }
+                }
+            }
 
 			message.AttachmentList = mailAattachments;
 			return message;
