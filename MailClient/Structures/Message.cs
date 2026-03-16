@@ -8,6 +8,9 @@ namespace MailClient.Structures
     /// </summary>
     [OSStructure(Description = "Represents a message")]
     public struct Message {
+        [OSStructureField(DataType = OSDataType.Text, Description = "The unique ID.", IsMandatory = false)]
+        public string UID;
+
         [OSStructureField(DataType = OSDataType.Text, Description = "The from address.", IsMandatory = true)]
         public string From;
 
@@ -26,7 +29,8 @@ namespace MailClient.Structures
         /// <summary>
         /// Constructs an Iban struct from the IbanNet.Iban object.
         /// </summary>
-        public Message(string From, string Subject, string BodyHTML, IEnumerable<Structures.MailAttachment> AttachmentList) : this() {
+        public Message(string UID, string From, string Subject, string BodyHTML, IEnumerable<Structures.MailAttachment> AttachmentList) : this() {
+            this.UID = UID;
             this.From = From;
             this.Subject = Subject;
             this.BodyHTML = BodyHTML;

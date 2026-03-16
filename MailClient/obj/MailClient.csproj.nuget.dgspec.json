@@ -45,15 +45,19 @@
           "dependencies": {
             "Google.Apis.Auth": {
               "target": "Package",
-              "version": "[1.68.0, )"
+              "version": "[1.73.0, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[4.7.1.1, )"
+              "version": "[4.15.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.5, )"
             },
             "OutSystems.ExternalLibraries.SDK": {
               "target": "Package",
-              "version": "[1.4.0, )"
+              "version": "[1.5.0, )"
             }
           },
           "imports": [
