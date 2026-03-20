@@ -14,7 +14,7 @@ namespace MailClient.Structures
         [OSStructureField(DataType = OSDataType.Text, Description = "The from address.", IsMandatory = true)]
         public string From;
 
-        [OSStructureField(DataType = OSDataType.Text, Description = "The email subjetc.", IsMandatory = true)]
+        [OSStructureField(DataType = OSDataType.Text, Description = "The email subject.", IsMandatory = true)]
         public string Subject;
 
         [OSStructureField(DataType = OSDataType.Text, Description = "The email body.", IsMandatory = true)]
@@ -23,17 +23,21 @@ namespace MailClient.Structures
         [OSStructureField(DataType = OSDataType.DateTime, Description = "The date.", IsMandatory = true)]
         public DateTime Date;
 
+        [OSStructureField(DataType = OSDataType.Text, Description = "The email folder.", IsMandatory = true)]
+        public string Folder;
+
         [OSStructureField(Description = "The list of attachments.", IsMandatory = true)]
         public IEnumerable<Structures.MailAttachment> AttachmentList;
 
         /// <summary>
         /// Constructs an Iban struct from the IbanNet.Iban object.
         /// </summary>
-        public Message(string UID, string From, string Subject, string BodyHTML, IEnumerable<Structures.MailAttachment> AttachmentList) : this() {
+        public Message(string UID, string From, string Subject, string BodyHTML, string Folder, IEnumerable<Structures.MailAttachment> AttachmentList) : this() {
             this.UID = UID;
             this.From = From;
             this.Subject = Subject;
             this.BodyHTML = BodyHTML;
+            this.Folder = Folder;
             this.AttachmentList = AttachmentList;
         }
     }
