@@ -1,0 +1,13 @@
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/bin/Debug/net10.0/MailClient.deps.json
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/bin/Debug/net10.0/MailClient.dll
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/bin/Debug/net10.0/MailClient.pdb
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.csproj.AssemblyReference.cache
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.AssemblyInfoInputs.cache
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.AssemblyInfo.cs
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.csproj.CoreCompileInputs.cache
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.sourcelink.json
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.dll
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/refint/MailClient.dll
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/MailClient.pdb
+/Users/roberto.elli/Documents/OutSystems/ODCComponents/MailClient/MailClient/obj/Debug/net10.0/ref/MailClient.dll
